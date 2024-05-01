@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<H1>JPA2 회원 등록</H1>
+<div class="container">
+	<form action="/members/save" method="post">
+		<!-- ID : <input type="text" id="id" name="id" required="required"> -->
+			회원이름 : <input type="text" name="name"     placeholder="회원이름을 입력하세요"><p>
+			팀 이름 : <input type="text" name="teamname" placeholder="팀이름을 입력하세요">
+			<button type="submit">등록</button>
+	</form>
+</div>	<!-- /container -->
+</body>
+</html>
